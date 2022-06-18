@@ -1,5 +1,19 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+   <Items />
+   <Information />
   </div>
 </template>
+<script>
+import Items from '@/components/Items.vue'
+import Information from '@/components/Information.vue'
+
+export default {
+  name: 'HomeView',
+  components: {
+    Items,
+    Information
+  
+  }
+}
+</script>

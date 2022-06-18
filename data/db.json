@@ -1,0 +1,61 @@
+{
+    "persons":[{
+            "id":1,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house",
+            "img": "/src/assets/item.jpg"
+
+        },
+        {
+            "id":2,
+            "name":"verde",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house",
+            "img": "/src/assets/item.jpg"
+        },
+        {
+            "id":3,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house",
+            "img": "/src/assets/item.jpg"
+        },
+        {
+            "id":4,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house"
+        },
+        {
+            "id":5,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house"
+        },
+        {   "id":6,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house"
+        },
+        {   "id":7,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house"
+        }
+    ]
+}
