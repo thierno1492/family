@@ -1,5 +1,5 @@
 <template>
-  <div class="Items">
+  <div class="Items container">
   <H1>Bienvenue Sur la famille de Bagnanya❤👪</H1>
    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">

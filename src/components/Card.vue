@@ -1,5 +1,5 @@
 <template>
-<div class="container-fluid row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+<div class="container-fluid row row-cols-2">
 <div v-for="person in persons"  class="card">
   
     <img alt="Vue logo" src="../assets/item.jpg">
