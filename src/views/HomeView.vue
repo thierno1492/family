@@ -17,13 +17,13 @@ export default {
    
     Card
   },
-   /*  data() {
+    data() {
         return { 
             persons: []
         }
     },
 
-    mounted() {
+ /*    mounted() {
         fetch(' http://localhost:3000/persons')
         .then(res => res.json())
         .then(data =>this.persons = data)

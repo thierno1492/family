@@ -1,16 +1,16 @@
 <template>
 <div class="container-fluid row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-<div   v-for="persons in person" :key="person.id" class="card">
+<div v-for="person in persons"  class="card">
   
     <img alt="Vue logo" src="../assets/item.jpg">
   
   <div class="container" >
-    <h4><b>{{persons.name}}</b></h4> 
-    <p>Architect & Engineer</p> 
-    <p>{{persons.age}}</p>
+    <h4><b>Thierno sadialiou diallo</b></h4> 
+    <Show />
     <p>Fils de:Ousmane & Kadiatou toure</p>
-    <a href="#">{{persons.contact}}</a>
+    <a href="#">622191010</a>
    <p>Adress:Conakry</p>
+   <a href="#">lien parental</a>
   </div>
 </div>
 </div>
@@ -35,21 +35,79 @@
 </style>
 
 <script>
-import Show from '@/components/Show.vue'
+
 export default{
 
    components: {
    
-    Show
   },
   
     data() {
         return { 
-            person: null,
-            img: ""
+           persons:[{
+            "id":1,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house",
+            "img": "/src/assets/WIN_20220202_14_58_28_Pro.jpg"
+
+        },
+        {
+            "id":2,
+            "name":"verde",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house",
+            "img": "/src/assets/item.jpg"
+        },
+        {
+            "id":3,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house",
+            "img": "/src/assets/item.jpg"
+        },
+        {
+            "id":4,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house"
+        },
+        {
+            "id":5,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house"
+        },
+        {   "id":6,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house"
+        },
+        {   "id":7,
+            "name":"rojo",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house"
+        }
+    ]
         }
     },
 
+
+/* 
     mounted() {
         fetch(' http://localhost:3000/persons')
         .then(res => res.json())
@@ -57,7 +115,7 @@ export default{
           console.log(person)
         .catch(err => console.log(err.message))
   
-    },
+    }, */
      
      
 }
