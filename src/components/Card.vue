@@ -5,11 +5,11 @@
     <img alt="Vue logo" src="../assets/item.jpg">
   
   <div class="container" >
-    <h4><b>Thierno sadialiou diallo</b></h4> 
+    <h4><b>{{person.name}}</b></h4> 
     <Show />
     <p>Fils de:Ousmane & Kadiatou toure</p>
-    <a href="#">622191010</a>
-   <p>Adress:Conakry</p>
+    <a href="#">{{person.conctact}}</a>
+   <p>Adress:{{person.address}}</p>
    <a href="#">lien parental</a>
   </div>
 </div>
@@ -25,7 +25,9 @@
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-
+.container-fluid[data-v-54cdc180] {
+    display: flex;
+}
 .container {
   padding: 2px 16px;
   }
@@ -46,7 +48,7 @@ export default{
         return { 
            persons:[{
             "id":1,
-            "name":"rojo",
+            "name":"saliou",
             "age":"25",
             "adress":"conakry",
             "contact":"623246415",
@@ -56,7 +58,7 @@ export default{
         },
         {
             "id":2,
-            "name":"verde",
+            "name":"mamadou",
             "age":"25",
             "adress":"conakry",
             "contact":"623246415",
@@ -65,7 +67,7 @@ export default{
         },
         {
             "id":3,
-            "name":"rojo",
+            "name":"samba",
             "age":"25",
             "adress":"conakry",
             "contact":"623246415",
@@ -74,7 +76,7 @@ export default{
         },
         {
             "id":4,
-            "name":"rojo",
+            "name":"bhoye",
             "age":"25",
             "adress":"conakry",
             "contact":"623246415",
@@ -82,26 +84,51 @@ export default{
         },
         {
             "id":5,
-            "name":"rojo",
+            "name":"mamadian",
             "age":"25",
             "adress":"conakry",
             "contact":"623246415",
             "work":"house"
         },
         {   "id":6,
-            "name":"rojo",
+            "name":"cellou",
             "age":"25",
             "adress":"conakry",
             "contact":"623246415",
             "work":"house"
         },
         {   "id":7,
-            "name":"rojo",
+            "name":"kadiatou",
             "age":"25",
             "adress":"conakry",
             "contact":"623246415",
             "work":"house"
+        ,
+        },
+          {
+            "id":8,
+            "name":"mamadian",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house"
+        },
+        {   "id":9,
+            "name":"cellou",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house"
+        },
+        {   "id":10,
+            "name":"kadiatou",
+            "age":"25",
+            "adress":"conakry",
+            "contact":"623246415",
+            "work":"house"
+        ,
         }
+
     ]
         }
     },
