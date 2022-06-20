@@ -2,7 +2,7 @@
 <div class="container-fluid row row-cols-2">
 <div v-for="person in persons"  class="card">
   
-    <img alt="Vue logo" src="../assets/item.jpg">
+    <img alt="Vue logo" src="../assets/WIN_20220202_14_58_28_Pro.jpg">
   
   <div class="container" >
     <h4><b>{{person.name}}</b></h4> 
