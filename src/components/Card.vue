@@ -34,6 +34,15 @@
   .container-fluid{
     display: flex;
   }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+
+}
 </style>
 
 <script>
