@@ -128,7 +128,7 @@ export default {
       persons: [
         {
           id: 1,
-          name: "Mdou saliou diallo",
+          name: "Mdou Saliou Diallo",
           age: "30",
           adress: "Dakar senegal",
           contact: "+221778593204",
