@@ -15,6 +15,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background: #CE5937;
+background: -moz-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+background: -webkit-linear-gradient(left, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
+background: linear-gradient(to right, #CE5937 0%, #1C6EA4 50%, #C59237 100%);
 }
 
 nav {

@@ -23,11 +23,7 @@
   </div>
 </template>
 <style scoped>
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  width: 40%;
-}
+
 .item{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -51,6 +47,7 @@ li{
 .card{
     border: 5px inset #1C6EA4;
     width:100%;
+    
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
@@ -127,10 +124,10 @@ height: 18vh;
 }
 h5{
   color: black;
-  font-size:10px
+  font-size:13px
 }
 p{
-  font-size:9px;
+  font-size:10px;
 }
 a{
   font-size:9px;
@@ -138,6 +135,7 @@ a{
 .card{
     border: 1px inset #1C6EA4;
     width:100%;
+    
 }
 }
   }
