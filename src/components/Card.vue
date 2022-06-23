@@ -1,6 +1,6 @@
 <template>
-  <div class="container item">
-    <div class="card" style="width: 18rem;" v-for="person in persons">
+  <div class="container-fluid item">
+    <div class="card"  v-for="person in persons">
 <div class="aw">  <img :src="person.img" :alt="logo"></div>
   <div class="card-body">
     <h5 class="card-title">{{ person.name }}</h5>
@@ -50,16 +50,15 @@ li{
 }
 .card{
     border: 5px inset #1C6EA4;
+    width:100%;
 }
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-.container-fluid[data-v-54cdc180] {
-  display: flex;
-}
-.container {
+
+.container-fluid {
   padding: 0;
-  margin:  0 5% ;
+
   box-sizing: border-box;
   width: 100%;
   
@@ -73,6 +72,32 @@ li{
   margin-right: 0;
   margin-left: 0;
 }
+
+@media screen and (max-width: 1107px) {
+ .item{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  
+}
+  }
+
+  @media screen and (max-width: 894px) {
+ .item{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  
+}
+
+  @media screen and (max-width: 689px) {
+ .item{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  }
+}
+  }
 </style>
 
 <script>
