@@ -96,6 +96,13 @@ li{
   grid-template-columns: repeat(2, 1fr);
 
   }
+  .aw img[data-v-54cdc180] {
+  width: 100%;
+  height: 36vh;
+}
+.aw[data-v-54cdc180] {
+  height: 35vh;
+}
 }
   }
 </style>
