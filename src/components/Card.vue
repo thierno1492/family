@@ -116,11 +116,11 @@ li{
 @media screen and (max-width: 430px) {
  
   .aw img[data-v-54cdc180] {
- width: 82%;
-height: 18vh;
+width: 74%;
+height: 15vh;
 }
 .aw[data-v-54cdc180] {
-  height: 17vh;
+  height: 14vh;
 }
 h5{
   color: black;
