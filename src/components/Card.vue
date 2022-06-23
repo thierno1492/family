@@ -116,6 +116,16 @@ li{
   height: 31vh;
 }
 }
+@media screen and (max-width: 430px) {
+ 
+  .aw img[data-v-54cdc180] {
+  width: 100%;
+  height: 25vh;
+}
+.aw[data-v-54cdc180] {
+  height: 23vh;
+}
+}
   }
 </style>
 
