@@ -119,11 +119,21 @@ li{
 @media screen and (max-width: 430px) {
  
   .aw img[data-v-54cdc180] {
-  width: 100%;
-  height: 25vh;
+ width: 82%;
+height: 18vh;
 }
 .aw[data-v-54cdc180] {
-  height: 23vh;
+  height: 17vh;
+}
+h5{
+  color: black;
+  font-size:10px
+}
+p{
+  font-size:9px;
+}
+a{
+  font-size:9px;
 }
 }
   }
