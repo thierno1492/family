@@ -135,6 +135,10 @@ p{
 a{
   font-size:9px;
 }
+.card{
+    border: 1px inset #1C6EA4;
+    width:100%;
+}
 }
   }
 </style>
